@@ -2,6 +2,7 @@
 Huyen Le, Khiet Dang, Tien Lai, Nhung Nguyen, Mai Tran, and Hieu Pham* 
 
 SarcNet is a cell-features concatenated and linear layers-added ResNet-18 convolutional neural network (CNN) that can automatically quantifying sarcomere structure organizations on single-cell images of hiPSC-CMs. In particular, this model leverages predictions by concatenating the output from the ResNet-18 module and a representation vector of quantitative single-cell measurements of subcellular organization, followed by the addition of four linear layers to gain deeper linear representations.
+
 ![alt text](SarcNetModel.png)
 # Preparations
 ## Dataset
