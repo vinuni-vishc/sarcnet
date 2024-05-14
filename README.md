@@ -18,7 +18,9 @@ Run the command `pip install -r requirements.txt` to install the necessary libra
 # Training
 Please run the file `train.py` using the following command:
 
-`python train.py --csvpath1 YOUR_PATH_OF_CSV1 --csvpath2 YOUR_PATH_OF_CSV2 --metapath1 YOUR_PATH_OF_META1 --metapath2 YOUR_PATH_OF_META2 --datapath1 YOUR_PATH_OF_DATA1 --datapath2 YOUR_PATH_OF_DATA2`
+```
+python train.py --csvpath1 YOUR_PATH_OF_CSV1 --csvpath2 YOUR_PATH_OF_CSV2 --metapath1 YOUR_PATH_OF_META1 --metapath2 YOUR_PATH_OF_META2 --datapath1 YOUR_PATH_OF_DATA1 --datapath2 YOUR_PATH_OF_DATA2
+```
 
 The outputs would include:
 - best_model_corr.pt: model with the highest Spearman Correlation on the validation dataset
@@ -27,8 +29,9 @@ The outputs would include:
 - loss.png: an image drawing training and validation loss through epochs
 # Testing
 Please run the file `test.py` using the following command:
-
-`python test.py --csvpath1 YOUR_PATH_OF_CSV1 --csvpath2 YOUR_PATH_OF_CSV2 --metapath1 YOUR_PATH_OF_META1 --metapath2 YOUR_PATH_OF_META2 --datapath1 YOUR_PATH_OF_DATA1 --datapath2 YOUR_PATH_OF_DATA2 --checkpoint 'best_model_corr.pt'`
+```
+python test.py --csvpath1 YOUR_PATH_OF_CSV1 --csvpath2 YOUR_PATH_OF_CSV2 --metapath1 YOUR_PATH_OF_META1 --metapath2 YOUR_PATH_OF_META2 --datapath1 YOUR_PATH_OF_DATA1 --datapath2 YOUR_PATH_OF_DATA2 --checkpoint 'best_model_corr.pt'
+```
 
 The output would include the results of the four evaluation metrics (Spearman Correlation, MAE, MSE, and R2 score) on the testing dataset.
 # Reference
