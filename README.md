@@ -11,8 +11,8 @@ The data is available at https://open.quiltdata.com/b/allencell/packages/aics/in
 - Data 2: 2d_autocontrasted_fields_and_single_cells_fish_2/rescale_2D_single_cell_tiff_path
 - CSV 1: 2d_autocontrasted_single_cell_features_fish_1/features/a749d0e2_cp_features.csv
 - CSV 2: 2d_autocontrasted_single_cell_features_fish_2/features/1493afe2_cp_features.csv
-- File meta 1: 2d_autocontrasted_fields_and_single_cells_fish_1/metadata.csv
-- File meta 2: 2d_autocontrasted_fields_and_single_cells_fish_2/metadata.csv
+- File meta 1: automated_local_and_global_structure_fish_1/metadata.csv
+- File meta 2: automated_local_and_global_structure_fish_2/metadata.csv
 ## Downloading dependencies
 Run the command `pip install -r requirements.txt` to install the necessary libraries.
 # Training
